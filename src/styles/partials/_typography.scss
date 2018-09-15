@@ -1,0 +1,57 @@
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: $primary;
+    font-size: 14px;
+}
+
+h1 {
+    color: $secondary;
+    padding-top: 10rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+h1 span {
+    color: $primary;
+    padding-top: 10rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+h2 {
+    color: $secondary;
+    font-weight: 600;
+}
+
+.projects h2 {
+    text-align: center;
+    color: $secondary;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+h3 {
+    color: $primary;
+    font-weight: 400;
+}
+
+h4 {
+    color: $secondary;
+}
+
+h5 {
+    color: $primary;
+    font-weight: 400;
+}
+
+h6 {
+    color: $primary;
+    font-weight: 400;
+}
