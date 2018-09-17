@@ -75,16 +75,21 @@ button {
     border: 2px solid white;
 }
 
+button a:hover {
+    color: rgb(54,54,54);
+    font-weight: 600;
+}
+
 button:hover {
     background-color: $secondary;
     color: rgb(54,54,54);
+    font-weight: 600;
 }
 
 i {
     color: rgb(255, 231, 24);
-    font-size: 2.5rem;
+    font-size: 4.5rem;
 }
-
 
 .landing {
     max-width: 1920px;
@@ -100,15 +105,16 @@ i {
 // Section 1:
 
 .aboutMe {
-    margin-top: 7rem;
+    margin-top: 5rem;
     display: flex;
 }
 
 .aboutMe img {
-    width: 33%;
-    height: 33%;
+    width: 43%;
+    height: 43%;
     border: 3px solid white;
-    border-radius: 160px;
+    border-radius: 197px;
+    margin-top: 6rem;
     margin-left: 3rem;
 }
 
@@ -124,7 +130,7 @@ i {
 // Section 2:
 
 .skills {
-    padding-top: 8rem;
+    padding-top: 9rem;
     display: flex;
     flex-direction: row;
     // width: 70%;
@@ -144,22 +150,13 @@ i {
     padding: 20px;
 }
 
-// .skillsTop {
-    //     // flex-direction: row;
-    //     margin: 20px;
-    //     width: calc(100% / 3);
-    // }
-    
-    // .skillsBottom {
-        //     // flex-direction: row;
-        //     margin: 20px;
-        //     width: calc(100% / 3);
-        // }
-        
+.skills i {
+    font-size: 7rem;
+}
         
  .firebaseImg {
-    width: 12%;
-    height: 12%;
+    width: 63%;
+    height: 63%;
 }
 
 // SECTION 3:
@@ -168,46 +165,116 @@ i {
     display: flex;
     flex-direction: column;
     max-width: 1920px;
-    height: 90rem;
+    height: 130rem;
     margin: 0 auto;
+    text-align: center;
 }
 
 .projects img {
-    width: 33%;
-    height: 33%;
+    width: 60%;
+    height: 60%;
 }
 
 .projectContainer {
-    flex-direction: column;
+    // display: block;
+    // width: 100%;
+}
+
+.projectContainerOne {
+    // width: 50%;
+}
+
+.projectContainerTwo {
+    // width: 50%;
+}
+
+.projectDescription {
+    // width: 50%;
 }
 
 // SECTION 4:
 
 .contact {
     display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    height: 800px;
+}
+
+.contact h2 {
+    text-align: center;
+    padding-bottom: 10px;
+} 
+
+.contactFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
 .email {
-    flex-direction: column;
-    border: 2px solid white;
-    width: 75%;
-    height: 38%;
+    flex-direction: center;
+    border: 2px solid $primary;
+    width: 33%;
+    // height: 33%;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 input {
     width: 50%;
     height: 33%;
+    margin: 12px;
+    border-radius: 40px;
+    padding: 10px;
 }
 
 textarea#message.contactMessage {
-    width: 80rem;
-    height: 10rem;
+    width: 40rem;
+    height: 15rem;
+
 }
 
-.socials {
-    flex-direction: column;
+.inputSend {
+    padding: 20px 0 20px 0;
+    width: 23%;
+    height: 20%;
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: rgb(54,54,54);
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+}
+
+.inputSend:hover {
+    background-color: $secondary;
+    color: rgb(54,54,54);
+}
+
+.contactFormContainer {
+    margin: 10px;
+    padding-bottom: 2rem;
+    // border: 2px solid white;
+}
+
+.contactFormContainer label, textarea {
+    color: white;
+    margin: 5px;
 }
         
-        
-        
+.socials {
+    flex-direction: column;
+}   
+
+.socials {
+    // margin: 10px;
+}
+
+footer {
+    margin-top: 7rem;
+    text-align: center;
+    height: 4rem;
+}

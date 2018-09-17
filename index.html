@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="public/styles/style.css">    
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800" rel="stylesheet"> 
+   <link rel="stylesheet" href="./public/styles/animate.min.css">
+   <link rel="stylesheet" href="public/styles/style.css">   
     <title>Scott Girouard - Web Developer</title>
+    
 </head>
 <body>
 
@@ -39,16 +42,21 @@
 
         <h2>Front-End Web Developer</h2>
 
-            <h3>Personable, motivated and ambitious graduate of HackerYou. Easily adaptable personality with a strong willingness to learn more.</h3>
+            <h3>Personable, motivated and ambitious graduate of HackerYou. Easily adaptable personality with a strong willingness to continue learning more.</h3>
 
-    <button>More About Me</button>
+    <button><a href="#aboutMeLink">Read More About Me</a></button>
+    
 </div>
 
     <!-- START OF SECTION 1: About Me -->
 
-<section class="aboutMe wrapper">
-
+    <a id="aboutMeLink"></a>
+    
+    <section class="aboutMe wrapper">
+        
+        
     <img src="/Assets/2018-summer-bootcamp-scott-girouard-3.jpg" alt="">
+
 
     <div class="aboutMeContainer">
 
@@ -74,13 +82,13 @@
     <div class="skillsContainer">   
         <div class="skillsBox">
             <i class="fab fa-html5"></i>
-                <h3>HTML5</h3>
+                <!-- <h3>HTML5</h3> -->
             <!-- <p>Proficient in HTML5 with extensive hands on project-based experience</p> -->
         </div>
 
         <div class="skillsBox">
-            <i class="fab fa-css3-alt"></i>
-                <h3>CSS3</h3>
+            <i class="devicon-css3-plain-wordmark"></i>
+                <!-- <h3>CSS3</h3> -->
             <!-- <p>A passionate, eye for CSS styling with previous experience with design in programs such as Adobe Photoshop, Illustrator and In Design</p>     -->
         </div>
     </div>
@@ -88,13 +96,13 @@
     <div class="skillsContainer">
         <div class="skillsBox">
             <i class="fab fa-js-square"></i>
-                <h3>JavaScript</h3>
+                <!-- <h3>JavaScript</h3> -->
             <!-- <p>Educated in the fundamentals of JavaScript through hands on, project-based learning in both independant and team environments</p>     -->
         </div>
 
         <div class="skillsBox">
-            <i class="fab fa-js-square"></i>
-            <h3>jQuery</h3>
+            <i class="devicon-jquery-plain-wordmark"></i>
+            <!-- <h3>jQuery</h3> -->
             <!-- <p>Completed multiple projects using the jQuery library effectively in order to simplify the user and developer experience.</p> -->
         </div>
     </div>    
@@ -102,15 +110,41 @@
     <div class="skillsContainer">
         <div class="skillsBox">
             <i class="fab fa-react"></i>
-                <h3>React</h3>
+                <!-- <h3>React</h3> -->
             <!-- <p>Educated in building user interfaces from scratch using this JavaScript library</p>     -->
         </div>
 
         <div class="skillsBox">
             <img class="firebaseImg" src="/Assets/logo-logomark.png" alt="">
-                <h3>Firebase</h3>
+                <!-- <h3>Firebase</h3> -->
             <!-- <p>Well versed and experienced in accessing this web application platform to store API information, user data and authentication </p>     -->
         </div>
+    </div>
+
+    <div class="skillsContainer">
+        <div class="skillsBox">
+            <i class="devicon-git-plain-wordmark"></i>
+                <!-- <h3>Git</h3> -->
+        </div>
+
+        <div class="skillsBox">
+            <i class="fab fa-github-square"></i>
+                <!-- <h3>GitHub</h3> -->
+        </div>
+
+    </div>
+
+    <div class="skillsContainer">
+        <div class="skillsBox">
+            <i class="devicon-gulp-plain"></i>
+                <!-- <h3>Gulp</h3> -->
+        </div>
+    
+        <div class="skillsBox">
+            <i class="devicon-sass-original"></i>
+                <!-- <h3>Sass</h3> -->
+        </div>
+    
     </div>
 
     </section>
@@ -121,41 +155,66 @@
 
     <!-- START OF SECTION 3: Projects -->
 
-    <section class="projects wrapper">
+    <section class="wow fadeIn projects wrapper">
 
         <h2>PROJECTS</h2>
 
-        <div class="projectContainer">
+    <div>
 
-            <h3>Dark Tourist Destination Generator</h3>
+        <div class="wow slideInLeft projectContainerOne">
+
+            <!-- <h3>Dark Tourist Destination Generator</h3> -->
             
             <img src="/Assets/darkTourist.png" alt="">
 
         </div>
 
-        <div class="projectContainer">
+        <div class="projectDescription">
+            <p>Made with HTML, CSS, React etc...</p>
+        </div>
 
-            <h3>Recommendr</h3>
+        <div class="wow slideInRight projectContainerTwo">
+
+            <!-- <h3>Recommendr</h3> -->
             
             <img src="/Assets/recommendr.png" alt="">
             
         </div>
+    
+    </div>
 
-        <div class="projectContainer">
+    <div>
 
-            <h3>Restaurant</h3>
+        <div class="projectDescription">
+            <p>Made with HTML, CSS, React etc...</p>
+        </div>
+
+        <div class="wow slideInLeft projectContainerOne">
+
+            <!-- <h3>Restaurant</h3> -->
 
             <img src="/Assets/restaurant.png" alt="">
         
         </div>
 
-        <div class="projectContainer">
+        <div class="projectDescription">
+            <p>Made with HTML, CSS, React etc...</p>
+        </div>
 
-            <h3>Which Ancient Human Civilization Are You?</h3>
+        <div class="wow slideInRight projectContainerTwo">
+
+            <!-- <h3>Which Ancient Human Civilization Are You?</h3> -->
 
             <img src="/Assets/civilization.png" alt="">
             
         </div>
+
+        <div class="projectDescription">
+            <p>Made with HTML, CSS, React etc...</p>
+        </div>
+    
+    </div>
+
 
     </section>
 
@@ -175,22 +234,27 @@
             <h5>www.scottgirouard.ca</h5>    
         </div>
 
+    <div class="contactFormContainer">
+
         <form class="contactForm" action="#" method="POST"></form>
 
             <label for="fullName">Name:</label>
 
-                <input type="text" id="fullName" name="fullName" placeholder="Name">
+                <input type="text" id="fullName" name="fullName" placeholder="Your Name">
 
-            <label for="email">Email Address:</label>
+            <label for="email">Email:</label>
 
-                <input type="text" id="email" name="email" placeholder="Email Address">
+                <input type="text" id="email" name="email" placeholder="Your Email Address">
             
             <label for="textArea">Your Message:</label>
 
                 <textarea class="contactMessage" name="message" id="message" cols="30" rows="10"></textarea>
             
-            <input type="submit" value="submit message" name="send">
+            <input class="inputSend" type="submit" value="submit message" name="send">
 
+        
+    
+    </div>
 
 
         <div class="socials">
@@ -209,14 +273,26 @@
 
         </div>
 
-
     </section>
 
     <!-- END OF SECTION 4 -->
 
-    <script>
-    
-    </script>
+    <footer>
+
+        <p>2018 &copy; Development by Scott Girouard. Design by Zeron.</p>
+
+    </footer>
+
+
+    <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+    </script> -->
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="./public/scripts/wow.min.js"></script>
+
+
+    <script src="./public/scripts/app.js"></script>
+
+
     
 </body>
 </html>
