@@ -25,17 +25,25 @@ h1 span {
 }
 
 h2 {
-    color: $secondary;
+    color: $primary;
     font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 2.5rem;
 }
 
-.projects h2 {
-    text-align: center;
+h2.aboutMeHeader {
     color: $secondary;
-    font-weight: 600;
-    letter-spacing: 2px;
-    font-size: 2rem;
+    padding: 0;
+    font-size: 1.6rem;
 }
+
+// .projects h2 {
+//     text-align: center;
+//     color: $secondary;
+//     font-weight: 600;
+//     letter-spacing: 2px;
+//     font-size: 2rem;
+// }
 
 h3 {
     color: $primary;
