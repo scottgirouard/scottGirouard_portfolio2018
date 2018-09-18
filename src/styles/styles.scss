@@ -53,17 +53,13 @@ a {
     color: white;
     // text-align: center;
     text-decoration: none;
-    margin: 4.5rem;
+    margin: 3rem;
     text-transform: uppercase;
     font-size: 13px;
 }
 
 a:hover {
-    background-color: $secondary;
-}
-
-.socials a {
-    margin: 8rem;
+    color: $secondary;
 }
 
 
@@ -107,15 +103,30 @@ i {
 .aboutMe {
     margin-top: 5rem;
     display: flex;
+    outline: 0;
+}
+
+.aboutMeImg {
+    width: 130rem;
+    // height: 120rem;
+    // border: 3px solid white;
+    // border-radius: 205px;
+    margin-top: 3.5rem;
+    margin-left: 3rem;
 }
 
 .aboutMe img {
-    width: 43%;
-    height: 43%;
+    // width: 43%;
+    // height: 43%;
+    // border: 3px solid white;
+    // border-radius: 205px;
+    // margin-top: 3.5rem;
+    // margin-left: 3rem;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 205px;
     border: 3px solid white;
-    border-radius: 197px;
-    margin-top: 6rem;
-    margin-left: 3rem;
+
 }
 
 .aboutMeContainer {
@@ -134,7 +145,9 @@ h2.skillsHeader{
     color: $primary;
     font-size: 2rem;
     margin-top: 12rem;
+    padding-top: 3rem;
     text-align: center;
+    outline: 0;
 }
 
 .skills {
@@ -173,9 +186,10 @@ h2.skillsHeader{
     display: flex;
     flex-direction: column;
     max-width: 1920px;
-    height: 125rem;
+    height: 142rem;
     margin: 0 auto;
     text-align: center;
+    outline: 0;
 }
 
 .projects img {
@@ -211,7 +225,8 @@ h2.skillsHeader{
     display: flex;
     flex-direction: column;
     max-width: 1920px;
-    height: 800px;
+    height: 450px;
+    outline: 0;
 }
 
 .contact h2 {
@@ -230,6 +245,7 @@ h2.skillsHeader{
 .email {
     flex-direction: center;
     border: 2px solid $primary;
+    border-radius: 15px;
     width: 33%;
     // height: 33%;
     text-align: center;
@@ -241,7 +257,7 @@ input {
     width: 50%;
     height: 33%;
     margin: 12px;
-    border-radius: 40px;
+    // border-radius: 40px;
     padding: 10px;
 }
 
@@ -268,24 +284,36 @@ textarea#message.contactMessage {
     color: rgb(54,54,54);
 }
 
-.contactFormContainer {
-    margin: 10px;
-    padding-bottom: 2rem;
-    // border: 2px solid white;
-}
+// .contactFormContainer {
+//     margin: 10px;
+//     padding-bottom: 1rem;
+//     border: 2px solid white;
+// }
 
 .contactFormContainer label, textarea {
     color: white;
-    margin: 5px;
+    // margin: 5px;
 }
         
 .socials {
     flex-direction: column;
+    margin-bottom: 3rem;
     
-}   
+}
+
+.socials a {
+    padding: 4.8rem;
+    justify-content: space-between;
+}
 
 footer {
     margin-top: 7rem;
     text-align: center;
     height: 4rem;
 }
+
+// #page-wrap { 
+//   max-width: 500px; 
+//   margin: 1rem auto;
+//   padding: 1rem;
+// }
