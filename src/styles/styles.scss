@@ -147,6 +147,10 @@ i {
 
 }
 
+.aboutMe p {
+    width: 100%;
+}
+
 .aboutMeContainer {
     flex-direction: column;
     margin-left: 8rem;
@@ -357,7 +361,7 @@ textarea#message.contactMessage {
 
 .socials i {
     font-size: 7.5rem;
-    margin-top: 4rem;
+    margin-top: 4.5rem;
 }
 
 .socials i:hover {
@@ -430,3 +434,156 @@ footer {
     animation-delay: .8s;
 }
 
+// MEDIA QUERIES
+
+// WEDNESDAY TACKLE:
+
+// GO THROUGH MOBILE AND CLEAN IT UPPP
+// Check each width and go through site in full to check for fuckery
+// 
+
+@media (max-width: 1125px) {
+
+    .socials i {
+        font-size: 6.5rem;
+    }
+}
+
+@media (max-width: 1075px) {
+
+    a {
+        font-size: 10px;
+        margin: 2rem;
+    }
+
+    .aboutMeImg {
+        width: 220rem;
+        margin-top: 7rem;
+    }
+
+    .aboutMe img {
+        max-width: 100%;
+        width: 100%;
+        border-radius: 240px;
+    }
+
+    .skillsContainer {
+        margin: 0 auto;
+    }
+
+    .skills i {
+        font-size: 4.5rem;
+    }
+
+    .aboutMeContainer {
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .skills i {
+        font-size: 3rem;
+    }
+
+    .landing {
+        height: 600px;
+    }
+
+    .aboutMe {
+        flex-direction: column;
+        margin-top: 0.5rem;
+    }
+
+    .aboutMeImg {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .aboutMe p {
+        font-size: 15px;
+        line-height: 2rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h2.skillsHeader {
+        margin-top: 6rem;
+    }
+
+    .skills {
+        height: 23rem;
+    }
+
+    .skillsContainer {
+        margin: 0 auto;
+    }
+
+    .projects {
+        height: 133rem;
+    }
+
+    .socials i {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 660px) {
+
+    a {
+        margin: 0.5rem;
+    }
+
+    .aboutMeImg {
+        width: 50%;
+    }
+
+    .skillsContainer {
+        margin: 0 auto;
+    }
+
+    .socials i {
+        font-size: 5rem;
+    } 
+}
+
+@media (max-width: 480px) {
+    
+    a {
+        font-size: 8px;
+        margin: 0 auto;
+        padding: 3px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h1 span {
+        font-size: 2.5rem;
+    }
+
+    .aboutMeImg {
+        width: 70%;
+        margin-top: 5rem;
+    }
+
+    .aboutMeButton {
+        padding: 15px 50px;
+    }
+
+    .aboutMe p {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.5rem;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skillsContainer {
+        margin: 0 auto;
+    }
+}
