@@ -178,7 +178,7 @@ h2.skillsHeader{
     flex-direction: row;
     // width: 70%;
     max-width: 1920px;
-    height: 35rem;
+    height: 32rem;
     text-align: center;
 }
 
@@ -234,7 +234,7 @@ svg {
 }
 
 .projectDescription {
-    height: 12rem;
+    height: 10rem;
 }
 
 .projectDescription p {
@@ -270,14 +270,15 @@ svg {
     flex-direction: column;
     max-width: 1920px;
     // height: 450px;
-    height: 80vh;
+    height: 85vh;
     outline: 0;
+    margin-top: 7rem;
 }
 
 .contact h2 {
     text-align: center;
     padding-bottom: 10px;
-    padding-top: 28px;
+    padding-top: 15px;
 } 
 
 .contactFormContainer {
@@ -361,7 +362,7 @@ textarea#message.contactMessage {
 
 .socials i {
     font-size: 7.5rem;
-    margin-top: 4.5rem;
+    margin-top: 5rem;
 }
 
 .socials i:hover {
@@ -447,6 +448,15 @@ footer {
     .socials i {
         font-size: 6.5rem;
     }
+
+    .skillsContainer {
+        margin: 0 auto;
+    }
+
+    .contact {
+        height: 80vh;
+        margin-top: 0.5rem;
+    }
 }
 
 @media (max-width: 1075px) {
@@ -472,7 +482,7 @@ footer {
     }
 
     .skills i {
-        font-size: 4.5rem;
+        font-size: 6rem;
     }
 
     .aboutMeContainer {
@@ -482,8 +492,12 @@ footer {
 
 @media (max-width: 980px) {
 
+    .skillsContainer {
+        margin: 0 auto;
+    }
+
     .skills i {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .landing {
@@ -493,6 +507,14 @@ footer {
     .aboutMe {
         flex-direction: column;
         margin-top: 0.5rem;
+    }
+
+    .aboutMe h2 {
+        text-align: center;
+    }
+     
+    .aboutMeContainer {
+        margin: 0 auto;
     }
 
     .aboutMeImg {
@@ -505,6 +527,8 @@ footer {
         line-height: 2rem;
         width: 100%;
         margin: 0 auto;
+        padding-bottom: 8px;
+        line-height: 1.2rem;
     }
 
     h2.skillsHeader {
@@ -524,7 +548,49 @@ footer {
     }
 
     .socials i {
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+
+    // .projectBottom {
+    //     margin-bottom: 15rem;
+    // }
+
+    .contact {
+        // margin-top: 5px;
+    }
+
+    .contact h2 {
+        padding-top: 7rem;
+    }
+}
+
+@media (max-width: 765px) {
+
+    a {
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .skillsContainer {
+        margin: 0 auto;
+
+    }
+
+    .projects {
+        height: 120rem;
+    }
+
+    
+}
+
+@media (max-width: 700px) {
+
+    .skillsContainer {
+        margin: 0 auto;
+    }
+
+    .skills i {
+        font-size: 3rem;
     }
 }
 
@@ -538,13 +604,29 @@ footer {
         width: 50%;
     }
 
+    .skills {
+        height: 20rem;
+    }
+
+    .skills i {
+        font-size: 2rem;
+    }
+
     .skillsContainer {
         margin: 0 auto;
     }
 
+    .projects {
+        height: 110rem;
+    }
+
     .socials i {
-        font-size: 5rem;
+        font-size: 4rem;
     } 
+
+    footer p {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -557,10 +639,15 @@ footer {
 
     h1 {
         font-size: 2.5rem;
+        padding-top: 4rem;
     }
 
     h1 span {
         font-size: 2.5rem;
+    }
+
+    .landing {
+        height: 505px;
     }
 
     .aboutMeImg {
@@ -579,11 +666,41 @@ footer {
         line-height: 1.5rem;
     }
 
+    h2.skillsHeader {
+        margin-top: 3rem;
+        padding-top: 1rem;
+    }
+
     .skills {
         flex-direction: column;
+        padding-top: 3px;
+        // flex-direction: row;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 28rem;
     }
 
     .skillsContainer {
         margin: 0 auto;
+        flex-direction: row;
+    }
+
+    .skillsBox {
+        flex-direction: column;
+        width: 50%;
+        float: right;
+    }
+
+    .skills i {
+        font-size: 2rem;
+    }
+
+    svg {
+        width: 50%;
+        height: 50%;
+    }
+
+    .socials i {
+        font-size: 3rem;
     }
 }
